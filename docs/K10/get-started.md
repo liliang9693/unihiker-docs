@@ -71,6 +71,9 @@ After burning a programme for the K10 in Mind+ or other IDE, the programme will 
 - Supports power supply via edge connector
 - Supports power supply via expansion board
 
+!!! Note 
+    For safety reasons, the UNIHIKER K10 does not have an integrated battery charging function. This is to prevent damage to the battery or potential safety hazards caused by accidentally connecting a non-rechargeable battery or using a charger with incompatible charging parameters. The K10 can be powered by a battery, but the battery must be charged using an external charger that matches the battery's specifications.
+
 **TF card**<br/>
 We recommend using genuine SanDisk cards in DFRobot Store: [32GB Class 10](https://www.dfrobot.com/product-1715.html).
 Using an unknown brand of memory card may cause problems such as card read/write failure and program crash.
