@@ -338,6 +338,7 @@ nav:
     - 🪄 Playground: 
       - MindPlus Tutorial(Block): K10/Playground/Tutorial(Block).md
       - LLM Voice/Visual Chatboat Xiaozhi AI - support Deepseek: K10/Playground/XiaozhiAI.md
+      - Muse: K10/Playground/muse_unihiker_k10.md
     - 📝Specification: K10/HardwareReference/hardwarereference_specs.md
     - 💾 Reference Download: K10/HardwareReference/hardwarereference_stepschematic.md
     - 🧩 Accessories: K10/GettingStarted/gettingstarted_accessories.md
