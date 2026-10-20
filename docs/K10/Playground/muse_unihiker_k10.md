@@ -65,7 +65,7 @@ licenses/
 The four BIN files in `firmware/` are used for flashing. Use `k10-usb-config.html` to configure your device afterward. The remaining files contain instructions, checksums, and licenses; you do not flash them to K10.
 
 <p align="center">
-  <img src="img/muse/muse_1.png" alt="GitHub release assets with the UNIHIKER K10 Muse full firmware v0.1.0 download highlighted." width="1000" />
+  <img src="../img/muse/muse_1.png" alt="GitHub release assets with the UNIHIKER K10 Muse full firmware v0.1.0 download highlighted." width="1000" />
 </p>
 
 ### 2.2 Put K10 into download mode
@@ -78,7 +78,7 @@ The four BIN files in `firmware/` are used for flashing. Use `k10-usb-config.htm
 K10 is now in download mode and ready to flash. On Windows, check Device Manager for its serial port, such as `COM10`. Use the port shown on your own computer.
 
 <p align="center">
-  <img src="img/muse/muse_2.png" alt="Back of UNIHIKER K10 with the USB connector and A, B, BOOT, and RST buttons outlined." width="500" />
+  <img src="../img/muse/muse_2.png" alt="Back of UNIHIKER K10 with the USB connector and A, B, BOOT, and RST buttons outlined." width="500" />
 </p>
 
 ### 2.3 Firmware files and flash addresses
@@ -105,7 +105,7 @@ Set **SPI MODE: DIO** and **SPI SPEED: 80 MHz**. Select K10's serial port, choos
 Do not flash `muse-gadget.bin` by itself at `0x0`. Before switching from the factory firmware to Muse, back up any programs or files you want to keep. A full flash erase deletes existing data and settings. Later updates to Muse firmware usually do not require a full erase.
 
 <p align="center">
-  <img src="img/muse/muse_3.png" alt="ESP Flash Download Tool with four K10 firmware files and offsets, DIO, 80 MHz selected, and DoNotChgBin enabled." width="500" />
+  <img src="../img/muse/muse_3.png" alt="ESP Flash Download Tool with four K10 firmware files and offsets, DIO, 80 MHz selected, and DoNotChgBin enabled." width="500" />
 </p>
 
 **Option 2: Command line on Windows, macOS, or Linux**
@@ -139,7 +139,7 @@ On first startup, the screen displays the Muse avatar with `USB` and `Set SDK To
 This means the firmware is running and waiting for you to configure your own SDK Token.
 
 <p align="center">
-  <img src="img/muse/muse_4.png" alt="K10 first-start screen showing the Muse avatar and the USB prompt: Set SDK Token first." width="500" />
+  <img src="../img/muse/muse_4.png" alt="K10 first-start screen showing the Muse avatar and the USB prompt: Set SDK Token first." width="500" />
 </p>
 
 ## 3. Set up your SDK Token
@@ -168,7 +168,7 @@ python -m http.server 8766 --bind 127.0.0.1
 Then open `http://localhost:8766/k10-usb-config.html` in Chrome or Edge. Keep the terminal running during setup; you can close it afterward.
 
 <p align="center">
-  <img src="img/muse/muse_5.png" alt="K10 USB setup page with the Connect K10 button highlighted to open the serial port chooser." width="500" />
+  <img src="../img/muse/muse_5.png" alt="K10 USB setup page with the Connect K10 button highlighted to open the serial port chooser." width="500" />
 </p>
 
 ### 3.3 Save and restart
@@ -184,11 +184,11 @@ Your token is saved on the device and remains stored after a restart or power lo
 After a successful initial setup, K10 displays `SET UP WI-FI` and `MuseGadget-XXXXXX` at the top of the screen. The suffix varies by device.
 
 <p align="center">
-  <img src="img/muse/muse_6.png" alt="Save all settings button highlighted at the bottom of the K10 USB setup page." width="500" />
+  <img src="../img/muse/muse_6.png" alt="Save all settings button highlighted at the bottom of the K10 USB setup page." width="500" />
 </p>
 
 <p align="center">
-  <img src="img/muse/muse_7.png" alt="K10 displaying SET UP WI-FI and device name MuseGadget-A7EA4C above the Muse avatar, ready for app setup." width="500" />
+  <img src="../img/muse/muse_7.png" alt="K10 displaying SET UP WI-FI and device name MuseGadget-A7EA4C above the Muse avatar, ready for app setup." width="500" />
 </p>
 
 ## 4. Pair in the Muse app and connect to Wi-Fi
@@ -198,19 +198,19 @@ After a successful initial setup, K10 displays `SET UP WI-FI` and `MuseGadget-XX
 3. Select **Add Device** or the **+** button in the upper-right corner.
 
 <p align="center">
-  <img src="img/muse/muse_8.png" alt="Muse app Devices screen with Developer Mode enabled and the add-device plus button highlighted." width="500" />
+  <img src="../img/muse/muse_8.png" alt="Muse app Devices screen with Developer Mode enabled and the add-device plus button highlighted." width="500" />
 </p>
 
 4. Select `MuseGadget-XXXXXX` from the list. Match its suffix to the name at the top of K10's screen.
 
 <p align="center">
-  <img src="img/muse/muse_9.png" alt="Muse app Connect a Device screen listing MuseGadget-A7EA4C with a Connect button." width="500" />
+  <img src="../img/muse/muse_9.png" alt="Muse app Connect a Device screen listing MuseGadget-A7EA4C with a Connect button." width="500" />
 </p>
 
 5. When the app or K10 asks for confirmation, **press K10's A button once**.
 
 <p align="center">
-  <img src="img/muse/muse_10.png" alt="Muse app pairing prompt for MuseGadget-A7EA4C asking for a button press on the device; press A on K10." width="500" />
+  <img src="../img/muse/muse_10.png" alt="Muse app pairing prompt for MuseGadget-A7EA4C asking for a button press on the device; press A on K10." width="500" />
 </p>
 
 6. Follow the app's prompts to select a 2.4 GHz Wi-Fi network, enter its password, and wait for K10 to connect.
